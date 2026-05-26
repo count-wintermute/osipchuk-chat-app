@@ -1,0 +1,5 @@
+Requirement already satisfied: python-jose in C:\Users\osipc\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (3.5.0)
+Requirement already satisfied: ecdsa!=0.15 in C:\Users\osipc\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from python-jose) (0.19.2)
+Requirement already satisfied: rsa!=4.1.1,!=4.4,<5.0,>=4.0 in C:\Users\osipc\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from python-jose) (4.9.1)
+Requirement already satisfied: pyasn1>=0.5.0 in C:\Users\osipc\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from python-jose) (0.6.3)
+Requirement already satisfied: six>=1.9.0 in C:\Users\osipc\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from ecdsa!=0.15->python-jose) (1.17.0)
