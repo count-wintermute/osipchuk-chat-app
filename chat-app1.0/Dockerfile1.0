@@ -1,0 +1,7 @@
+FROM python:3.9-slim
+
+WORKDIR /chat-app1.0
+
+COPY server.py /chat-app1.0/server.py
+
+CMD ["python", "server.py"]
