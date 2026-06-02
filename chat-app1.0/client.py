@@ -2,8 +2,16 @@
 import socket
 import threading
 import sys
+from urllib import request 
+def get_public_ip():
+    """Fetches the public-facing IP address by querying an external service."""
+    print("[*] Attempting to retrieve public IP address...")
+    try:
+       
+        with request.urlopen('https://api64.ipify.org') as response:
+            ip_address = response.read().decode('utf-8').strip()
+            return ip_address
 
-HOST = '0.0.0.0'
 PORT = 5555
 
 def receive_messages(client_socket):
